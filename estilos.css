@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;;
+}
+
+header{
+    height: 20%;
+    background-color: #00b8e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 30px
+}
+
+input{
+    border-radius: 2px;
+}
+
+input[type="text"]{
+    padding: 12px;
+    margin: 10px;
+    width: 200px;
+    height: 20px;
+    border: none;
+
+}
+
+input[type="submit"]{
+    background-color: #00b8e2;
+    padding: 10px;
+    width: 100px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+
+}
